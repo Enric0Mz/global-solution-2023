@@ -1,0 +1,127 @@
+.container-master {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: linear-gradient(to right, #00563B, #beef00);
+
+    .main-container {
+        display: flex;
+        margin: 0;
+        height: 75%;
+
+        .main-section {
+            height: 70%;
+            width: 60%;
+
+            img {
+                width: 100%;
+                height: 40vh;
+            }
+
+            .main-content {
+                display: flex;
+                align-items: center;
+                height: 30vh;
+                padding: 10px;
+                text-align: center;
+            
+            h2 {
+                font-size: 24px;
+                margin-bottom: 5px;
+                color: white;
+
+            }
+
+            p {
+                font-size: 14px;
+                color: white;
+            }
+            
+            }
+
+            .info-button {
+                margin-left: 75%;
+                padding: 10px 30px;
+                border: none;
+                border-radius: 10px;
+                font-size: 16px;
+                cursor: pointer;
+                background-color: #FEB451;
+                color: #ffffff;
+                font-weight: bold;
+                transition: background-color 0.3s ease;
+
+                &:hover {
+                    background-color: #fe5a1d;
+                }
+            }
+        }
+
+        .info-section {
+            height: 70%;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            margin-left: 4vh;
+
+            .info-content {
+                height: 25vh;
+                padding: 10px;
+            
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 5px;
+                    color: white;
+                }
+    
+                p {
+                    font-size: 14px;
+                    color: white;
+                }
+            
+            }
+        }
+    }
+
+    .additional-section {
+        display: flex;
+        flex-direction: row;
+        height: 30%;
+    
+        .additional-element {
+            height: 100%;
+            width: 33%;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+    
+            .additional-content {
+                padding: 0 10px;
+                margin-left: 5vh;
+    
+                h2 {
+                    font-size: 24px;
+                    margin-bottom: 5px;
+                    color: white;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                    color: white;
+                }
+    
+                p {
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+
+            img {
+                width: 30%;
+                height: 100%;
+                border-radius: 5px;
+            }
+        }
+    }
+}
