@@ -2,6 +2,10 @@
 
 Esse projeto das matérias de front-end e web development tem como objetivo ser uma apresentação a solução criada "fitness buddy", que tem como objetivo trazer uma melhora esportiva para atlestas e praticantes,com prevenções esportivas, diestas e treinos personalizados, cuidados médicos e muito mais.
 
+## Integrantes do projeto
+
+Enrico Marquez - RM99325
+Ricardo Matos - RM95906
 
 ## Execução do projeto
 
