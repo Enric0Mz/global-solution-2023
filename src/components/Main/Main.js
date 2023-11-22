@@ -10,7 +10,7 @@ import footbal from '../../images/pexels-rdne-stock-project-7188092.jpg'
 function Main() {
     const isAuthorized = localStorage.getItem('authorized') === 'true';
     if (!isAuthorized) {
-        return <Navigate to="/login" />;
+        return <Navigate to="/" />;
     }
 
     return (

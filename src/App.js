@@ -12,7 +12,7 @@ function App() {
           path="/index"
           element={<Main authorized={false} />} 
         />
-        <Route exact path="/login" element={<Login/>}/>
+        <Route exact path="/" element={<Login/>}/>
       </Routes>
     </Router>
   )
